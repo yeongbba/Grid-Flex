@@ -1,0 +1,110 @@
+.title {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  z-index: 99;
+  padding: 7px 0;
+}
+.title img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+}
+.title img:first-child {
+  position: relative;
+  left: -20px;
+}
+.title img:last-child {
+  position: relative;
+  right: -20px;
+}
+.title span {
+  font-size: 2.5em;
+  color: white;
+}
+.nav {
+  padding: 60px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo img {
+  width: 15px;
+  height: 15px;
+}
+.logo img:last-child {
+  position: relative;
+  top: -3px;
+}
+.logo span {
+  display: block;
+  position: relative;
+  top: -2px;
+}
+.nav__btn {
+  display: flex;
+}
+.logo + .nav__btn {
+  position: flex;
+  width: 140px;
+  justify-content: flex-start;
+  padding: 15px 0px 15px 15px;
+}
+.logo + .nav__btn span:first-child,
+.logo + .nav__btn span:last-child {
+  background: #111111;
+  margin-right: 5px;
+  display: flex;
+  width: 60px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  color: white;
+  font-weight: 500;
+  padding: 5px 0px;
+}
+.logo + .nav__btn span:last-child {
+  background: none;
+  color: black;
+}
+.nav__input {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+.nav__input input {
+  width: 75%;
+  height: 50px;
+  border: none;
+  background: #efefef;
+  border-radius: 20px;
+}
+.nav__input-placeholder {
+  position: absolute;
+  margin-left: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.nav__icons {
+  padding-left: 20px;
+  display: flex;
+  width: 15%;
+  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 28px;
+  flex: 1;
+  color: #757576;
+}
