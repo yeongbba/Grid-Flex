@@ -1,12 +1,18 @@
-.title {
-  position: fixed;
-  width: 100vw;
+header {
+  position: static;
   top: 0;
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.title {
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   background: black;
-  z-index: 99;
   padding: 7px 0;
 }
 .title img {
@@ -27,10 +33,11 @@
   color: white;
 }
 .nav {
-  padding: 60px 30px;
+  padding: 0px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: white;
 }
 .logo {
   display: flex;
@@ -72,10 +79,14 @@
   color: white;
   font-weight: 500;
   padding: 5px 0px;
+  cursor: pointer;
 }
 .logo + .nav__btn span:last-child {
   background: none;
   color: black;
+}
+.logo + .nav__btn span:last-child:hover {
+  background: #efefef;
 }
 .nav__input {
   flex: 1;
@@ -91,10 +102,17 @@
   border: none;
   background: #efefef;
   border-radius: 20px;
+  padding: 0px 20px;
+}
+.nav__input input:focus {
+  outline: none;
+}
+.nav__input input:hover {
+  background: lightgray;
 }
 .nav__input-placeholder {
   position: absolute;
-  margin-left: 15px;
+  margin-left: 25px;
   color: rgba(0, 0, 0, 0.5);
 }
 .nav__icons {
@@ -107,4 +125,46 @@
   font-size: 28px;
   flex: 1;
   color: #757576;
+  position: relative;
+}
+.nav__icons span,
+.nav__icons i {
+  display: flex;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.nav__icons ~ span:hover,
+.nav__icons i:hover {
+  background: #efefef;
+}
+.nav__input-display {
+  display: none;
+}
+.menu {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 70px;
+  right: 5px;
+  font-size: 0.6em;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 7px;
+  padding-left: 7px;
+}
+.menu span {
+  display: block;
+  width: 100px;
+}
+.visible {
+  display: none;
 }
