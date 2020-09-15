@@ -163,6 +163,13 @@ nav {
 }
 .menu span {
   font-size: 16px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  cursor: pointer;
+=======
+>>>>>>> 38863bc... finish
+>>>>>>> 7a58675... finish3
 }
 .visible {
   display: none;
