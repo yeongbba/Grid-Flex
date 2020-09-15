@@ -14,7 +14,29 @@ function removeClass() {
 }
 
 function pushSubject() {
-  let subject = ["culture", "social", "social", "IT", "ART", "Buisness", "IT"];
+  let subject = [
+    "culture",
+    "social",
+    "social",
+    "IT",
+    "art",
+    "buisness",
+    "IT",
+    "history",
+    "art",
+    "tech",
+    "environment",
+    "sport",
+    "travel",
+    "social",
+    "design",
+    "world",
+    "culture",
+    "food",
+    "shop",
+    "politic",
+    "economy",
+  ];
   return subject;
 }
 

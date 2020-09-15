@@ -127,7 +127,7 @@ nav {
   color: #757576;
   position: relative;
 }
-.nav__icons span,
+.nav__icons .user,
 .nav__icons i {
   display: flex;
   cursor: pointer;
@@ -137,7 +137,7 @@ nav {
   align-items: center;
   border-radius: 20px;
 }
-.nav__icons ~ span:hover,
+.nav__icons .user:hover,
 .nav__icons i:hover {
   background: #efefef;
 }
@@ -145,9 +145,9 @@ nav {
   display: none;
 }
 .menu {
-  width: 200px;
-  height: 200px;
-  background-color: white;
+  width: 100px;
+  height: 150px;
+  background-color: #efefef;
   color: black;
   position: absolute;
   top: 70px;
@@ -156,14 +156,13 @@ nav {
   border-radius: 7px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding-top: 7px;
-  padding-left: 7px;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding-right: 7px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 .menu span {
-  display: block;
-  width: 100px;
+  font-size: 16px;
 }
 .visible {
   display: none;
