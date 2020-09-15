@@ -163,6 +163,7 @@ nav {
 }
 .menu span {
   font-size: 16px;
+  cursor: pointer;
 }
 .visible {
   display: none;
