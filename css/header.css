@@ -118,7 +118,7 @@ nav {
 .nav__icons {
   padding-left: 20px;
   display: flex;
-  width: 15%;
+  width: 200px;
   height: 80px;
   justify-content: space-around;
   align-items: center;
@@ -164,12 +164,16 @@ nav {
 .menu span {
   font-size: 16px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   cursor: pointer;
 =======
 >>>>>>> 38863bc... finish
 >>>>>>> 7a58675... finish3
+=======
+  cursor: pointer;
+>>>>>>> 291f8a0... icons
 }
 .visible {
   display: none;
