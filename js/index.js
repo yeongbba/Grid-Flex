@@ -15,13 +15,13 @@ function removeClass() {
 
 function pushSubject() {
   let subject = [
-    "culture",
-    "social",
-    "social",
-    "IT",
-    "art",
     "buisness",
+    "food",
+    "social",
     "IT",
+    "travel",
+    "sport",
+    "beauty",
     "history",
     "art",
     "tech",
